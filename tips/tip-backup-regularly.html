@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Backup Regularly - Zynovex</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="../assets/css/styles.css">
+</head>
+<body class="bg-gray-100 font-sans text-gray-800 smooth-scroll">
+    <!-- Header -->
+    <header class="bg-gradient-to-r from-blue-600 to-indigo-600 text-white py-4 md:py-6 sticky top-0 z-50 shadow-lg">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-row justify-between items-center">
+                <h1 class="text-2xl md:text-3xl font-bold tracking-tight">
+                    <a href="../index.html" class="hover:text-blue-200 transition-all">Zynovex</a>
+                </h1>
+                
+                <!-- Hamburger Button -->
+                <button id="menu-toggle" class="md:hidden p-2 rounded-lg hover:bg-blue-700/30 transition-all" aria-label="Toggle Menu">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path class="menu-open" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+                        <path class="menu-close hidden" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
+                    </svg>
+                </button>
+
+                <!-- Navigation Menu -->
+                <nav class="hidden md:block w-auto">
+                    <ul class="flex md:space-x-8 text-sm md:text-base">
+                        <li class="mx-3 md:mx-0">
+                            <a href="../index.html#home" class="hover:text-blue-200 transition-all py-2 px-3 rounded-full hover:bg-blue-700/30">Home</a>
+                        </li>
+                        <li class="mx-3 md:mx-0">
+                            <a href="../index.html#tips" class="hover:text-blue-200 transition-all py-2 px-3 rounded-full hover:bg-blue-700/30">Tips</a>
+                        </li>
+                        <li class="mx-3 md:mx-0">
+                            <a href="../index.html#tools" class="hover:text-blue-200 transition-all py-2 px-3 rounded-full hover:bg-blue-700/30">Tools</a>
+                        </li>
+                        <li class="mx-3 md:mx-0">
+                            <a href="../index.html#about" class="hover:text-blue-200 transition-all py-2 px-3 rounded-full hover:bg-blue-700/30">About</a>
+                        </li>
+                        <li class="mx-3 md:mx-0">
+                            <a href="../index.html#contact" class="hover:text-blue-200 transition-all py-2 px-3 rounded-full hover:bg-blue-700/30">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+
+            <!-- Mobile Menu -->
+            <div id="mobile-menu" class="md:hidden hidden">
+                <nav class="mt-4 pb-4">
+                    <ul class="flex flex-col space-y-2">
+                        <li>
+                            <a href="../index.html#home" class="block hover:text-blue-200 transition-all py-2 px-3 rounded-full hover:bg-blue-700/30">Home</a>
+                        </li>
+                        <li>
+                            <a href="../index.html#tips" class="block hover:text-blue-200 transition-all py-2 px-3 rounded-full hover:bg-blue-700/30">Tips</a>
+                        </li>
+                        <li>
+                            <a href="../index.html#tools" class="block hover:text-blue-200 transition-all py-2 px-3 rounded-full hover:bg-blue-700/30">Tools</a>
+                        </li>
+                        <li>
+                            <a href="../index.html#about" class="block hover:text-blue-200 transition-all py-2 px-3 rounded-full hover:bg-blue-700/30">About</a>
+                        </li>
+                        <li>
+                            <a href="../index.html#contact" class="block hover:text-blue-200 transition-all py-2 px-3 rounded-full hover:bg-blue-700/30">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <section class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-8 animate-slide-up">Backup Regularly</h2>
+            <img src="../assets/images/backup-regularly.jpg" alt="Backup" class="w-full max-w-2xl mx-auto h-64 object-cover rounded-lg mb-8 shadow-md animate-slide-up">
+            <div class="bg-white p-8 rounded-lg shadow-md max-w-3xl mx-auto animate-slide-up">
+                <h3 class="text-2xl font-semibold mb-4">Protect Your Work</h3>
+                <p class="text-gray-600 mb-6">Regular backups prevent data loss and ensure project continuity. Here’s how to set up effective backups:</p>
+                <ul class="list-disc list-inside text-gray-600 space-y-4">
+                    <li><strong>Cloud Storage</strong>: Use Google Drive, Dropbox, or OneDrive for automatic file syncing.</li>
+                    <li><strong>External Drives</strong>: Back up to an external hard drive weekly for local redundancy.</li>
+                    <li><strong>Versioned Backups</strong>: Use tools like Time Machine (Mac) or File History (Windows) for incremental backups.</li>
+                    <li><strong>Automate Backups</strong>: Set up cron jobs or scripts to back up critical folders daily.</li>
+                    <li><strong>Secure Backups</strong>: Encrypt sensitive data with tools like VeraCrypt before backing up.</li>
+                    <li><strong>Test Restores</strong>: Periodically test your backups to ensure they’re recoverable.</li>
+                </ul>
+                <p class="text-gray-600 mt-6">Pro Tip: Use services like Backblaze for affordable, automated cloud backups with unlimited storage.</p>
+            </div>
+            <div class="text-center mt-8">
+                <a href="../index.html#tips" class="bg-gradient-to-r from-blue-600 to-indigo-600 text-white px-6 py-3 rounded-full font-semibold hover:bg-blue-700 hover-scale animate-slide-up">Back to Tips</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gradient-to-r from-gray-800 to-gray-900 text-white py-6">
+        <div class="container mx-auto px-4 text-center">
+            <p class="animate-slide-up">© 2025 Zynovex. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile Menu Toggle
+    document.addEventListener('DOMContentLoaded', function() {
+        const menuButton = document.getElementById('menu-toggle');
+        const mobileMenu = document.getElementById('mobile-menu');
+        const menuOpenIcon = menuButton.querySelector('.menu-open');
+        const menuCloseIcon = menuButton.querySelector('.menu-close');
+
+        menuButton.addEventListener('click', function() {
+            mobileMenu.classList.toggle('hidden');
+            menuOpenIcon.classList.toggle('hidden');
+            menuCloseIcon.classList.toggle('hidden');
+        });
+
+        // Close mobile menu when clicking on a link
+        const mobileLinks = mobileMenu.querySelectorAll('a');
+        mobileLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.add('hidden');
+                menuOpenIcon.classList.remove('hidden');
+                menuCloseIcon.classList.add('hidden');
+            });
+        });
+    });
+    </script>
+</body>
+</html>
